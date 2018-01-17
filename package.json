@@ -21,5 +21,15 @@
   },
   "engines": {
     "node": "0.10.x"
+  },
+  "coffeelintConfig": {
+    "indentation" : {
+        "level" : "error",
+        "value" : 4
+    },
+    "line_endings" : {
+        "value" : "unix",
+        "level" : "error"
+    }
   }
 }
