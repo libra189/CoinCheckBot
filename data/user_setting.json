@@ -1,0 +1,21 @@
+{
+  "_comment": "ユーザ設定ファイル",
+  "clone": {
+    "_comment": "定期通知設定 start(開始時間), end(終了時間), interval(通知間隔)",
+    "start": "8:00",
+    "end": "20:00",
+    "interval": 4
+  },
+  "signal": [
+    {
+      "_comment": "上昇/下落監視 target(対象), percent(上昇率/下落率)",
+      "target": "BTC",
+      "percent": 3
+    },
+    {
+      "_comment": "上昇/下落監視 target(対象), percent(上昇率/下落率)",
+      "target": "ETH",
+      "percent": 3
+    }
+  ],
+}

@@ -1,0 +1,7 @@
+{
+  "signal": {
+    "_comment": "signal_cloneは取得間隔(分)、intervalは○時間変動率",
+    "signal_clone": 15,
+    "interval": 24
+  }
+}
