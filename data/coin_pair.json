@@ -1,18 +1,54 @@
 {
   "BTC": {
-    "name": "BitCoin",
+    "name": "Bitcoin",
     "pair": "btc_jpy"
   },
-  "ETH": "eth_jpy",
-  "ETC": "etc_jpy",
-  "LSK": "lsk_jpy",
-  "FCT": "fct_jpy",
-  "XMR": "xmr_jpy",
-  "REP": "rep_jpy",
-  "XRP": "xrp_jpy",
-  "ZEC": "zec_jpy",
-  "XEM": "xem_jpy",
-  "LTC": "ltc_jpy",
-  "DASH": "dash_jpy",
-  "BCH": "bch_jpy"
+  "ETH": {
+    "name": "Ethereum",
+    "pair": "eth_jpy"
+  },
+  "ETC": {
+    "name": "Ethereum Classic",
+    "pair": "etc_jpy"
+  },
+  "LSK": {
+    "name": "Lisk",
+    "pair": "lsk_jpy"
+  },
+  "FCT": {
+    "name": "Factom",
+    "pair": "fct_jpy"
+  },
+  "XMR": {
+    "name": "Monero",
+    "pair": "xmr_jpy"
+  },
+  "REP": {
+    "name": "Augur",
+    "pair": "rep_jpy"
+  },
+  "XRP": {
+    "name": "Ripple",
+    "pair": "xrp_jpy"
+  },
+  "ZEC": {
+    "name": "Zcash",
+    "pair": "zec_jpy"
+  },
+  "XEM": {
+    "name": "NEM",
+    "pair": "xem_jpy"
+  },
+  "LTC": {
+    "name": "Litecoin",
+    "pair": "ltc_jpy"
+  },
+  "DASH": {
+    "name": "DASH",
+    "pair": "dash_jpy"
+  },
+  "BCH": {
+    "name": "Bitcash",
+    "pair": "bch_jpy"
+  }
 }
