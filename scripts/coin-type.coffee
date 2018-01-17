@@ -1,4 +1,5 @@
-pair = require('../data/coin_pair.json')
+fs = require('fs')
+pair = JSON.parse(fs.readFileSync('./data/coin_pair.json', 'utf-8'))
 check_list = []
 
 module.exports = (robot) ->
