@@ -1,7 +1,7 @@
 pair = require('../data/coin_pair.json')
 
 module.exports = (robot) ->
-    robot.hear /\/CoinList/i, (msg) ->
-        msg.send "略語: 名称[通貨ペア]"
+    robot.hear /\/Coinlist/i, (msg) ->
+        msg.send "取引通貨一覧"
         for key, value of pair
-            msg.send "#{key}: #{value.name}[#{value.pair}]"
+            msg.send "#{key}: #{value.name}"
