@@ -13,13 +13,16 @@ module.exports = (robot) ->
 
         flg = false
         for key, val of pair
-            if (key is coin) or (val is coin)
+            if (key is coin) or (val.name is coin)
                 flg = true
                 break
 
         if flg
-            check_list.push(coin)
-            msg.send "#{coin}を監視リストに追加しました"
+            if key in check_list
+                msg.send "#{coin}は既に監視済みです"
+            else
+                check_list.push(key)
+                msg.send "#{coin}を監視リストに追加しました"
         else
             msg.send "取引していません"
 
