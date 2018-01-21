@@ -23,13 +23,16 @@
     "node": "0.10.x"
   },
   "coffeelintConfig": {
-    "indentation" : {
-        "level" : "error",
-        "value" : 4
+    "indentation": {
+      "level": "error",
+      "value": 4
     },
-    "line_endings" : {
-        "value" : "unix",
-        "level" : "error"
+    "line_endings": {
+      "value": "unix",
+      "level": "error"
     }
+  },
+  "devDependencies": {
+    "async": "^2.6.0"
   }
 }
