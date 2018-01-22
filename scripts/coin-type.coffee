@@ -47,6 +47,7 @@ module.exports = (robot) ->
 
     # 監視通貨一覧
     robot.hear /\/List/i, (msg) ->
+        msg.send "監視通貨一覧"
         for val, index in check_list
             msg.send "#{val}"
 
@@ -75,4 +76,5 @@ module.exports = (robot) ->
             if err
                 console.log err
                 return -1
-            console.log result.join "\n"
+            message = result.join "\n"
+            msg.send "#{message}"
